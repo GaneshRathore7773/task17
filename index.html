@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <title>DOM PROJECT</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="logodiv"><h3>Logo</h3></div>
+      <ul class="ul">
+        <li>home</li>
+        <li>service</li>
+        <li>contact us</li>
+        <li>about as</li>
+      </ul>
+
+      <div class="user">
+        <button id="btn">
+          username
+          <i class="fa-solid fa-arrow-right-from-bracket" id="icon"></i>
+        </button>
+        <!-- <i class="fa-solid fa-arrow-right-from-bracket" id="icon"></i> -->
+      </div>
+    </nav>
+    <div class="infodiv">
+      <div class="leftdiv">
+        <div class="box1">
+          <span id="h3">added items</span>
+
+          <table class="table">
+            <th id="th">
+              <tr id="tr">
+                <th id="sno">s.no</th>
+                <th id="service">service name</th>
+                <th id="price">price</th>
+              </tr>
+            </th>
+
+            <tbody class="itemlist">
+              <tr>
+                <td colspan="3" id="tdata">
+                  <i class="fa fa-exclamation-triangle"></i>
+                  <h3>No Item Added</h3>
+                  <p>add item to the cart from service bar</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr />
+          <div class="pricediv">
+            <h4>Total Amount</h4>
+            <span>
+              <strong style="font-weight: 900">₹</strong>
+              <span id="ttlamount">0</span>
+            </span>
+          </div>
+        </div>
+        <form class="formsection">
+          <h3 class="booknow">Book now</h3>
+          <label for="name">Full Name:</label>
+          <input type="text" placeholder="Ganesh singh" class="inpwidth" />
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            placeholder="www.upskillmafia.com"
+            class="inpwidth"
+          />
+          <label for="mobilenumber">Number:</label>
+          <input type="text" placeholder="9543458565" class="inpwidth" />
+          <button id="bookbtn">book now</button>
+        </form>
+      </div>
+
+      <div class="rightdiv">
+        <div class="rightdiv1">
+          <h2>browse our services</h2>
+          <p>
+            click on the add to cart button to add the services to your cart or
+            press skip
+          </p>
+        </div>
+        <img src="newdry.jpg" alt=" no image found" class="dryclinimg" />
+        <div class="rightdiv2">
+          <h3 id="sname">dry clining</h3>
+          <h2 id="sprice">200</h2>
+        </div>
+        <div class="rightdiv3">
+          <button id="skipbtn">
+            skip
+            <i class="fa-solid fa-circle-minus"></i>
+          </button>
+          <button id="additem">
+            additem <i class="fa-solid fa-circle-plus"></i>
+          </button>
+        </div>
+        <div class="rightdiv4">
+          <p>
+            <i class="fa-solid fa-circle-exclamation"></i> add the item to the
+            cart and book now
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

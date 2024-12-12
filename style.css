@@ -1,0 +1,252 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(149, 242, 241);
+  background: radial-gradient(
+    circle,
+    rgba(149, 242, 241, 0.7120098039215687) 43%,
+    rgba(43, 53, 232, 1) 53%,
+    rgba(167, 228, 233, 1) 59%
+  );
+}
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 1px solid red; */
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(169, 149, 242, 1) 100%
+  );
+  height: 7vh;
+}
+h3 {
+  font-size: 3vh;
+}
+.ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  font-size: 2.5vh;
+}
+li {
+  text-transform: capitalize;
+}
+.user {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 12vw;
+  height: 6vh;
+}
+#btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5vh;
+  width: 11vw;
+  font-size: 2.4vh;
+  background-color: palevioletred;
+  border: none;
+  border-radius: 18px;
+  align-content: center;
+  line-height: 3px;
+  padding-left: 15px;
+}
+#icon {
+  background-color: red;
+  font-size: 1.5vh;
+  width: 3vw;
+  height: 5vh;
+  position: relative;
+  align-content: center;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  padding-left: 4px;
+}
+
+/* //////////////////////part2 work//////////////////////////////// */
+.infodiv {
+  display: flex;
+  justify-content: space-around;
+  height: 93vh;
+  width: 100vw;
+}
+/* ///////leftdiv css////////////// */
+.leftdiv {
+  height: 93vh;
+  width: 50vw;
+}
+#h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  width: 100%;
+  height: 5vh;
+
+  font-size: 3vh;
+  border-radius: 5px;
+}
+.table {
+  height: 30vh;
+  width: 50vw;
+  font-size: 1.5vw;
+  text-transform: capitalize;
+}
+#tr {
+  height: 40%;
+
+  font-size: 3vh;
+}
+#sno {
+  width: 15%;
+
+  font-size: 2vh;
+}
+#service {
+  width: 61%;
+
+  font-size: 2vh;
+}
+#price {
+  width: 34%;
+
+  font-size: 2vh;
+}
+#tdata {
+  font-size: 3vh;
+}
+.itemlist {
+  padding-left: 10px;
+  text-align: center;
+}
+.pricediv {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  height: 10vh;
+  font-size: 3vh;
+}
+.formsection {
+  display: flex;
+  flex-direction: column;
+  height: 47.5vh;
+  width: 100%;
+  font-size: 2vh;
+  gap: 7px;
+}
+label {
+  font-size: 3vh;
+  padding-left: 4px;
+}
+.inpwidth {
+  width: 95%;
+  font-size: 3vh;
+  padding-left: 4px;
+  margin-left: 4px;
+  cursor: pointer;
+  color: black;
+}
+.booknow {
+  width: 95%;
+  text-align: center;
+
+  font-size: 3vh;
+}
+#bookbtn {
+  width: 90%;
+  height: 16%;
+  margin-left: 20px;
+  font-size: 2vh;
+  background: rgb(149, 242, 241);
+  background: radial-gradient(
+    circle,
+    rgba(149, 242, 241, 0.7120098039215687) 43%,
+    rgba(43, 53, 232, 1) 53%,
+    rgba(167, 228, 233, 1) 59%
+  );
+  border-radius: 4px;
+  border: 1px solid rgb(38, 218, 158);
+}
+/*//////////////right div work//////////////////////////// */
+.rightdiv {
+  display: flex;
+  flex-direction: column;
+  height: 93vh;
+  width: 50vw;
+}
+.rightdiv1 {
+  height: 23%;
+  width: 100%;
+  
+}
+.rightdiv1 h2 {
+  font-size: 3vh;
+  padding-left: 5px;
+  text-align: center;
+}
+.rightdiv1 p {
+  font-size: 2vh;
+  padding-left: 5px;
+}
+.dryclinimg {
+  height: 53%;
+  width: 100%;
+}
+/* //////////////////////////////// */
+.rightdiv2 {
+  display: flex;
+  height: 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+#sname {
+  padding-left: 5px;
+  font-size: 3vh;
+}
+#sprice {
+  padding-right: 5px;
+  font-size: 3vh;
+}
+/* ///////////////right div 3/////////// */
+.rightdiv3 {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5px;
+}
+#skipbtn {
+  font-size: 2vh;
+  height: 64%;
+  width: 17%;
+  background-image: linear-gradient(rgb(226, 29, 209), rgb(243, 165, 237));
+  border-radius: 16px;
+}
+
+#additem {
+  font-size: 1.5vh;
+  height: 60%;
+  width: 23%;
+  background-color: #4158d0;
+  background-image: linear-gradient(161.15deg, #6df7ff 12.73%, #2dc9eb 72.95%);
+
+  border-radius: 16px;
+}
+/* ////////////rightdiv4///////// */
+.rightdiv4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5%;
+  border: 1px solid #000;
+  color: black;
+  font-size: 2vh;
+}
